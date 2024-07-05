@@ -70,4 +70,4 @@ This project is a web application built with Streamlit that generates SQL querie
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/PriyaDharshini22-2005/SQL-Query-Generator/blob/main/LICENSE) file for details.
