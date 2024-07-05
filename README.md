@@ -25,31 +25,31 @@ This project is a web application built with Streamlit that generates SQL querie
 ## Installation
 
 1. Clone the repository:
-    bash
+    ```bash
     git clone <repository_url>
     cd <repository_name>
-    
+    ```
 
 2. Install the required packages:
-    bash
+    ```bash
     pip install streamlit pandas google-generative-ai sqlite3
-    
+    ```
 
 3. Configure your Google Gemini API key:
-    - Open the sql_query_generator.py file.
-    - Replace "ADD YOUR GEMINI API KEY" with your actual Gemini API key:
-      python
+    - Open the `sql_query_generator.py` file.
+    - Replace `"ADD YOUR GEMINI API KEY"` with your actual Gemini API key:
+      ```python
       GOOGLE_API_KEY = "your_actual_gemini_api_key_here"
-      
+      ```
 
 ## Usage
 
 1. Run the Streamlit application:
-    bash
+    ```bash
     streamlit run sql_query_generator.py
-    
+    ```
 
-2. Open your web browser and navigate to http://localhost:8501.
+2. Open your web browser and navigate to `http://localhost:8501`.
 
 3. Upload your CSV file and enter your query in the text input box.
 
@@ -57,17 +57,17 @@ This project is a web application built with Streamlit that generates SQL querie
 
 ## Example
 
-1. *Upload CSV File*:
-    - Upload a file named data.csv with columns name, age, city.
+1. **Upload CSV File**:
+    - Upload a file named `data.csv` with columns `name`, `age`, `city`.
 
-2. *Enter Query*:
+2. **Enter Query**:
     - Example query: "Select all columns where age is greater than 25."
 
-3. *Generated SQL Query*:
-    sql
+3. **Generated SQL Query**:
+    ```sql
     SELECT * FROM data WHERE age > 25;
-    
+    ```
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/PriyaDharshini22-2005/SQL-Query-Generator/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
